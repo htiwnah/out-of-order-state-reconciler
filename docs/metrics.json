@@ -1,0 +1,49 @@
+{
+  "metrics": {
+    "tests_total": 74,
+    "tests_passed": true,
+    "coverage_line_pct": 99.11,
+    "total_partitions": 24,
+    "zero_lag_partitions_count": 24,
+    "count_mismatches_count": 0,
+    "silent_corrupted_partitions_count": 8,
+    "clean_partitions_count": 16,
+    "resolution_floor_pct": 4.17
+  },
+  "anchors": {
+    "tests_total": [
+      "{} tests"
+    ],
+    "coverage_line_pct": [
+      "{}% line coverage"
+    ],
+    "total_partitions": [
+      "{} evaluated partitions"
+    ],
+    "zero_lag_partitions_count": [
+      "{} zero-lag partitions"
+    ],
+    "count_mismatches_count": [
+      "{} count mismatches"
+    ],
+    "silent_corrupted_partitions_count": [
+      "{} silent corrupted partitions"
+    ],
+    "clean_partitions_count": [
+      "{} clean partitions"
+    ],
+    "resolution_floor_pct": [
+      "{}% resolution floor"
+    ]
+  },
+  "checked_documents": [
+    "README.md",
+    "CHANGELOG.md",
+    "docs/adr/ADR-001-digest-under-zero-lag.md",
+    "docs/adr/ADR-002-explicit-three-way-exit-codes.md",
+    "docs/adr/ADR-003-stdlib-core-and-python312-ci.md",
+    "docs/adr/ADR-004-separate-count-and-digest.md",
+    "docs/adr/ADR-005-snapshot-boundaries.md"
+  ],
+  "note": "Every value here is produced by running tests and offline experiments."
+}

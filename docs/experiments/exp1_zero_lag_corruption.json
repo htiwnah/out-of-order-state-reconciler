@@ -1,0 +1,8 @@
+{
+  "total_partitions": 24,
+  "zero_lag_partitions_count": 24,
+  "count_mismatches_count": 0,
+  "silent_corrupted_partitions_count": 8,
+  "clean_partitions_count": 16,
+  "resolution_floor_pct": 4.17
+}

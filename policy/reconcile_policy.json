@@ -1,0 +1,5 @@
+{
+  "policy_version": "1.0",
+  "max_allowed_corrupted_partitions": 0,
+  "fixture_path": "fixtures/state_partitions.jsonl"
+}

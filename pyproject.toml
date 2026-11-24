@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "out-of-order-state-reconciler"
+version = "1.0.0"
+description = "Deterministic pipeline state reconciler catching out-of-order corruption under zero lag"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Sai Hanwith Bellamkonda", email = "saihanwith.b@mycvcareer.com"}
+]
+dependencies = []
+
+[project.scripts]
+state-reconcile = "out_of_order_state_reconciler.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
